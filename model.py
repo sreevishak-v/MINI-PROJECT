@@ -8,7 +8,7 @@ model, vectorizer = joblib.load("rf_model_count_vectorizer.pkl")
 sentiment_labels = {'0': 'NOT DEPRESSION', '1': 'MODERATE DEPRESSION', '2': 'SEVERE DEPRESSION'}
 
 # Title of the app
-st.title('DEPRESSION CLASSIFICATION')
+st.title('LEVEL OF DEPRESSION ANALYSIS')
 
 # Text area for user input
 user_input = st.text_area("Enter your text here")
